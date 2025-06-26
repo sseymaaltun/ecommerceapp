@@ -1,0 +1,9 @@
+.home {
+    padding: 2rem; /* Sayfanın içeriğini tüm kenarlardan boşlukla içeri çeker.2rem = 32px */
+}
+
+.product-list {
+    display: grid; /* "grid container" ürünler satır ve sütunlar halinde hizalanır. */
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* Bu, grid sistemine kaç sütun olması gerektiğini dinamik olarak söyler: repeat(...) → Kolonları tekrar et auto-fill → Ekran alanı yettiği kadar çok kart yerleştir. minmax(220px, 1fr) → Her ürün kartı minimum 220px, maksimum ise esnek olacak şekilde genişlik alır. */
+    gap: 1.5rem; /* Ürün kartları arasında hem yatay hem dikey boşluk bırakır. */
+}
