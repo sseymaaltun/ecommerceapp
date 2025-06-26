@@ -1,11 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Cart from "./pages/Cart";
 import Home from "./pages/Home";
-import Product from "./pages/Product";
 import Navbar from './components/Navbar';
 import ProductDetail from "./pages/ProductDetail";
 import { CartProvider } from './context/CartContext';
-import { Slide, ToastContainer, Zoom } from "react-toastify";
+import { ToastContainer, Zoom } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import Checkout from './pages/Checkout';
 import ThankYou from './pages/ThankYou';
